@@ -1,0 +1,10 @@
+version: "3"
+services:
+  nodejs_service:
+    build: ./nodejs_service
+    container_name: nodejs_service_container
+    ports:
+      - "6002:6002"
+    volumes:
+      - ./nodejs_service:/app
+      - /app/node_modules
