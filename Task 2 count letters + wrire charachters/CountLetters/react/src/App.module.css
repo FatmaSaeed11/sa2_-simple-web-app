@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    padding: 3rem;
+    border: 1px dashed black;
+    margin: 1rem;
+    flex: 1;
+}
+
+.errorMsg {
+    color: red;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+span {
+    font-size: 2rem;
+    color: black;
+   
+}
+
+.generateButton {
+    font-size: 5rem;
+    padding: 4rem;
+    background-color: green;
+    font-size: 12px;
+
+}
+
+
+
+p {
+    font-size: 3rem;
+    font-weight: bold;
+}
